@@ -1,0 +1,62 @@
+html{
+    background-image: url("boats2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+head{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin: 0 auto
+}
+body{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    left: 25%;
+    z-index: 2;
+    width: 50%;
+    height: 92%;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+li{
+    float: left;
+    margin: auto
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background: #000000
+}
+
