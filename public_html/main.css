@@ -17,17 +17,33 @@ p{
     position: relative;
     margin: 0 auto
 }
+/*
 body{
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    left: 25%;
+    left: 17%;
     z-index: 2;
-    width: 50%;
+    width: 60%;
     height: 92%;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+*/
+body{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 1%;
+    height: 93%;
     padding: 20px;
     text-align: center;
     font-family: sans-serif;
@@ -54,9 +70,10 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 5%;
 }
 
 li a:hover{
-    background: #000000
+    background-color: rgb(0,0,0,.5);
 }
 
