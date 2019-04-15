@@ -38,7 +38,6 @@ body{
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4); 
     color: white;
-    font-weight: bold;
     border: 3px solid #f1f1f1;
     max-width: 960px;
     margin: auto;
@@ -67,6 +66,7 @@ li{
 }
 li a{
     display: block;
+    font-weight: bold;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -93,6 +93,16 @@ li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.contact-info{
+    text-align: center;
+}
+.email{
+    color: white
+}
+
+.email:hover{
+    color: rgb(0,0,0,.5);
 }
 
 
