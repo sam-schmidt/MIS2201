@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 html{
     background: rgb(0,0,0,.4);
     background-repeat: no-repeat;
@@ -49,8 +50,6 @@ body{
 }
 
 h1{
-    font-family: sans-serif;
-    color: white;
     text-align: center;
     align-content: center;
 }
@@ -83,6 +82,9 @@ li a:hover{
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
     filter: blur(5px);
     position: fixed;
     width: 100%;
@@ -111,5 +113,16 @@ li a:hover{
 .waterfall{
     border-radius: 8px;
     margin-right: 10px;
+}
+.custom-header{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+    color: rgb(190, 190, 190, 0.5);
+    -webkit-text-fill-color: transparent-white;
+    -webkit-text-stroke-width: 1px;
+}
+.biopic{
+    border: 5px;
+    border-style:outset
 }
 
