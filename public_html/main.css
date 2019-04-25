@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
 html body{
     min-height: 150%;
 }
@@ -12,6 +13,7 @@ html{
     margin: auto;
     height: 100%;
     width: 100%;
+    overflow: auto;
 }
 
 
@@ -25,8 +27,6 @@ body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
     color: white;
-    border: 3px solid #f1f1f1;
-    border-radius: 10px;
     max-width: 50%;
     min-width: 50%;
     height: 100%;
@@ -34,7 +34,7 @@ body{
     padding: 20px;
     text-align: center;
     font-family: sans-serif;
-    overflow: auto;
+    overflow:visible;
 }
 ul{
     list-style-type: none;
@@ -94,10 +94,6 @@ li a:hover{
 .active{
     background-color: rgb(190,190,190,0.5);
 }
-.waterfall{
-    border-radius: 8px;
-    margin-right: 10px;
-}
 .custom-header{
     font-family: 'Abril Fatface', cursive;
     font-size: 4em;
@@ -137,29 +133,29 @@ li a:hover{
 .stuff{
   display:block;
 }
-.sidebar{
+.testFoot, body, .sidebar{
     border: 2px;
     border-style:outset;
-    border-color: beige;
+    border-color: white;
     border-radius: 10px;
+}
+.sidebar{
     width: 25%;
+    padding: 5px;
     height: 500px;
     float: right
 }
 .mainbody{
     padding: 10px;
-    border: 2px;
-    border-style: outset;
     float: left;
     min-width: 70%;
     min-height: 70%;
+    overflow: visible;
 }
 .testFoot{
     position: absolute;
     bottom: 0;
-    border: 2px;
-    border-radius: 10px;
-    border-style: solid;
+    padding: 5px;
     height: 150px;
     width: 100%;
 }
