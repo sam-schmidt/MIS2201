@@ -1,40 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+html body{
+    min-height: 150%;
+}
+
 html{
     background: rgb(0,0,0,.4);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: sans-serif;
     margin: auto;
     height: 100%;
     width: 100%;
 }
-head{
-    font-family: sans-serif;
-}
+
+
 p{
-    font-family: sans-serif;
     color: white;
     text-align: left;
     position: relative;
-    margin: 0 auto
+    margin: 0 auto;
 }
-/*
-body{
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    left: 17%;
-    z-index: 2;
-    width: 60%;
-    height: 92%;
-    padding: 20px;
-    text-align: center;
-    font-family: sans-serif;
-}
-*/
 body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
@@ -42,18 +28,14 @@ body{
     border: 3px solid #f1f1f1;
     border-radius: 10px;
     max-width: 50%;
-    margin: auto;
+    min-width: 50%;
     height: 100%;
+    margin: auto;
     padding: 20px;
     text-align: center;
     font-family: sans-serif;
+    overflow: auto;
 }
-/*
-h1{
-    text-align: center;
-    align-content: center;
-}
-*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -121,12 +103,13 @@ li a:hover{
     font-size: 4em;
     color: rgb(190, 190, 190);
     -webkit-text-fill-color: rgb(190,190,190,.1);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .1px;
     text-decoration: underline;
     letter-spacing: 5px;
 }
 .biopic{
     border: 5px;
+    border-radius: 10px;
     border-style:outset;
 }
 .reusme-header{
@@ -153,4 +136,35 @@ li a:hover{
 }
 .stuff{
   display:block;
+}
+.sidebar{
+    border: 2px;
+    border-style:outset;
+    border-color: beige;
+    border-radius: 10px;
+    width: 25%;
+    height: 500px;
+    float: right
+}
+.mainbody{
+    padding: 10px;
+    border: 2px;
+    border-style: outset;
+    float: left;
+    min-width: 70%;
+    min-height: 70%;
+}
+.testFoot{
+    position: absolute;
+    bottom: 0;
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    height: 150px;
+    width: 100%;
+}
+.container{
+    position: relative;
+    min-height: 98%;
+    margin-bottom: 20px;
 }
