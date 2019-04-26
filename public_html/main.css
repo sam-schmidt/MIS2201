@@ -13,6 +13,7 @@ html{
     margin: auto;
     height: 100%;
     width: 100%;
+    min-width: 70%;
     overflow: auto;
 }
 
@@ -36,17 +37,17 @@ body{
     font-family: sans-serif;
     overflow:visible;
 }
-ul{
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block
 }
-li{
+.options{
     float: left;
     margin: auto
 }
-li a{
+.button{
     display: block;
     font-weight: bold;
     color: white;
@@ -56,7 +57,7 @@ li a{
     border-radius: 5px;
 }
 
-li a:hover{
+.button:hover{
     background-color: rgb(0,0,0,.5);
 }
 .bg{
