@@ -13,7 +13,7 @@ html{
     margin: auto;
     height: 100%;
     width: 100%;
-    min-width: 70%;
+    min-width: 800px;
     overflow: auto;
 }
 
@@ -97,35 +97,38 @@ body{
     border: 5px;
     border-radius: 10px;
     border-style:outset;
+    width: 50%
 }
-.testFoot, body, .sidebar{
+body{
     border: 5px;
     border-style:outset;
     border-color: white;
     border-radius: 10px;
 }
-.sidebar{
-    width: 25%;
-    padding: 5px;
-    height: 500px;
-    float: right
-}
 .mainbody{
-    padding: 10px;
-    float: left;
-    min-width: 70%;
-    min-height: 70%;
+    min-width: 100%;
+    min-height: 100%;
     overflow: visible;
 }
-.testFoot{
-    position: absolute;
-    bottom: 0;
-    padding: 5px;
-    height: 150px;
-    width: 100%;
-}
 .container{
+    margin: 0;
+    padding: 0;
     position: relative;
     min-height: 98%;
     margin-bottom: 20px;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.caption{
+    background: rgb(0,0,0,.4);
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5vw;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    bottom: 7.25vw;
 }
