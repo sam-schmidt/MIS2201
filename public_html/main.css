@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 
-html body{
-    min-height: 150%;
+img, body, .other{
+    border: 5px;
+    border-style:outset;
+    border-color: white;
+    border-radius: 10px;
 }
-
+html, body{
+    min-height: 1440px;
+}
 html{
     background: rgb(0,0,0,.4);
     background-repeat: no-repeat;
@@ -27,10 +32,7 @@ p{
 body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
-    border: 5px;
-    border-style:outset;
-    border-color: white;
-    border-radius: 10px;
+    
     color: white;
     max-width: 50%;
     min-width: 50%;
@@ -104,6 +106,7 @@ body{
     width: 50%;
 }
 .mainbody{
+    height: 100%;
     min-width: 100%;
     min-height: 100%;
     overflow: visible;
@@ -138,9 +141,6 @@ body{
     color:cornflowerblue
 }
 .other{
-    border: 5px;
-    border-style: outset;
-    border-radius: 10px;
     background-image: url(iceHouse.jpg);
     background-size: cover;
     background-position: center;
@@ -155,10 +155,10 @@ body{
 .otherText{
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
-    height: 3vw;
+    height: auto;
+    min-height: 3vw;
     background-color: rgba(0,0,0, 0.4);
     display: table-cell;
-    vertical-align: middle;
 }
