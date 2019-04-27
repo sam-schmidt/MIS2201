@@ -8,6 +8,7 @@ img, body, .other{
 }
 html, body{
     min-height: 1440px;
+    min-width: 800px
 }
 html{
     background: rgb(0,0,0,.4);
@@ -143,14 +144,16 @@ body{
 .other{
     background-image: url(iceHouse.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 250px;
+    max-height: 60%;
     width: 50%;
     margin: 0 auto;
     background-repeat: no-repeat;
     font-family: 'Abril Fatface', cursive;
     font-size: 36px;
     position: relative;
+    overflow: visible;
 }
 .otherText{
     text-align: center;
