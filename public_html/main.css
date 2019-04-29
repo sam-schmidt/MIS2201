@@ -8,7 +8,7 @@ img, body, .other{
 }
 html, body{
     min-height: 1440px;
-    min-width: 800px
+    min-width: 1080px;
 }
 html{
     background: rgb(0,0,0,.4);
@@ -19,7 +19,6 @@ html{
     margin: auto;
     height: 100%;
     width: 100%;
-    min-width: 800px;
     overflow: auto;
 }
 
@@ -36,7 +35,7 @@ body{
     
     color: white;
     max-width: 50%;
-    min-width: 50%;
+    /*min-width: 50%;*/
     height: 100%;
     margin: auto;
     padding: 20px;
