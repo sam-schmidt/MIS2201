@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 
-img, body, .other{
+img, body, .other, .biopic{
     border: 5px;
     border-style:outset;
     border-color: white;
@@ -32,7 +32,6 @@ p{
 body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
-    
     color: white;
     max-width: 50%;
     /*min-width: 50%;*/
@@ -100,9 +99,6 @@ body{
     letter-spacing: 5px;
 }
 .biopic{
-    border: 5px;
-    border-radius: 10px;
-    border-style:outset;
     width: 50%;
 }
 .mainbody{
