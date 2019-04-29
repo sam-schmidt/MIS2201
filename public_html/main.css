@@ -8,7 +8,7 @@ img, body, .other, .biopic{
 }
 html, body{
     min-height: 1440px;
-    min-width: 1080px;
+    min-width: 800px;
 }
 html{
     background: rgb(0,0,0,.4);
