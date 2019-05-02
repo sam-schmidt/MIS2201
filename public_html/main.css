@@ -135,9 +135,8 @@ body{
     color:cornflowerblue
 }
 .other, .mongo, .nodejs{
-    background-size: cover;
     background-position: top;
-    height: 250px;
+    height: 500px;
     max-height: 60%;
     width: 50%;
     margin: 0 auto;
@@ -147,10 +146,15 @@ body{
     position: relative;
     overflow: visible;
 }
+.mongo, .nodejs{
+    background-size: contain;
+}
 .other{
     background-image: url(iceHouse.jpg);
+    background-size: cover;
 }
 .otherText, .mongoText, .nodejsText{
+    padding: 0 auto;
     text-align: center;
     position: absolute;
     bottom: 0%;
@@ -159,6 +163,9 @@ body{
     min-height: 3vw;
     background-color: rgba(0,0,0, 0.4);
     display: table-cell;
+}
+.nodejsText{
+    height: ;
 }
 .mongo{
     background-image: url(mongodb.png);
