@@ -27,6 +27,13 @@ p{
     position: relative;
     margin: 0 auto;
 }
+h1, h2{
+  font-family: 'Abril Fatface', cursive;
+}
+h2{
+    text-align: left;
+    font-weight: 100;
+}
 body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
@@ -44,7 +51,7 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block
+    display: inline-block;
 }
 .options{
     float: left;
@@ -173,4 +180,6 @@ body{
 .nodejs{
     background-image: url(nodejs-new-pantone-black.png);
 }
-
+.bullets{
+    text-align: left;
+}
