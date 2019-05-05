@@ -183,3 +183,6 @@ body{
 .bullets{
     text-align: left;
 }
+.center{
+    margin: auto;
+}
